@@ -1,5 +1,4 @@
 wget -O bios64.bin "https://github.com/BlankOn/ovmf-blobs/raw/master/bios64.bin"
-wget -O win10.iso "https://pixeldrain.com/u/9Bq1Z2NF"
 wget -O win10.iso "https://go.microsoft.com/fwlink/p/?LinkID=2195280&clcid=0x409&culture=en-us&country=US"
 wget -O ngrok.tgz "https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz"
 tar -xf ngrok.tgz
