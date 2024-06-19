@@ -3,7 +3,7 @@ wget -O win10.iso "https://go.microsoft.com/fwlink/p/?LinkID=2195280&clcid=0x409
 wget -O ngrok.tgz "https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz"
 tar -xf ngrok.tgz
 rm -rf ngrok.tgz
-./ngrok config add-authtoken 2BwGKVG7zradGaHgOZd7TNM1aW7_2cQuRHEpmv2GVqHeAUjDF
+./ngrok config add-authtoken 2bavzCtkZOVHPyM9I6VQ7NeCKir_6KftAsNawV1Fp8cqeQNDE
 ./ngrok tcp 5900
 sudo apt update
 sudo apt install qemu-kvm -y
